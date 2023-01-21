@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Application</title>
+</head>
+<body>
+    <!-- Home screen should have a signup page. It should accept, name, email, password and confirm password. -->
+
+   <!-- Home Screen -->
+<div class="home-screen">
+    <h1>Signup</h1>
+    <form id="signup-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <p class="error-message" id="name-error"></p><br>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <p class="error-message" id="email-error"></p><br>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <p class="error-message" id="password-error"></p><br>
+  
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password">
+      <p class="error-message" id="confirm-password-error"></p>
+      <p class="error-message" id="signup-failed"></p>
+      <p class="success-message" id="signup-done"></p><br>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  
+  <!-- Login Screen
+  <div class="login-screen">
+    <h1>Login</h1>
+    <form id="login-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+  
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  
+   ChatGpt Screen 
+  <div class="chatgpt-screen">
+    <h1>Your Favourite and Dream Project ChatGpt</h1>
+    <form id="chatgpt-form">
+      <label for="question">Question:</label>
+      <input type="text" id="question" name="question">
+  
+      <button type="submit">Submit</button>
+    </form>
+    <div id="answer-container"></div>
+    <form id="speaktext-form">
+      <label for="token">Token:</label>
+      <input type="text" id="token" name="token">
+  
+      <button type="submit">Speak Text</button>
+    </form>
+  </div> -->
+  
+    <script src="scripts\script.js"></script>
+</body>
+</html>

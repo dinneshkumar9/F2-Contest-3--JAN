@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles\chatgpt-style.css">
+    <title>chatgpt-screen</title>
+</head>
+<body>
+    <!-- ChatGpt Screen -->
+    <h1>Your Favourite and Dream Project ChatGpt</h1>
+    <h4>Write any of these Questions to get the answer:</h4>
+    <p class="questionGiven">1. What is a dog? </p>
+    <p class="questionGiven">2. What is the capital of France? </p>
+    <p class="questionGiven">3. What is the largest planet in our solar system? </p>
+    <div>
+      <label for="question"><h2>Enter your question :</h2></label>
+      <input type="text" id="question">
+      <button id="submit-button">Submit</button>
+    </div>
+
+    <div id="answer-container"></div>
+
+    <div id="token-container" style="display:none;">
+      <label for="token"><h2>Enter your token :</h2></label>
+      <input type="text" id="token">
+      <button id="speak-text-button">Speak text</button>
+    </div>
+
+  <script src="scripts\dashpage.js"></script>
+</body>
+</html>
